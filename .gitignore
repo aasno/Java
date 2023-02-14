@@ -21,3 +21,7 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/001_Fundamentos/001/HolaMundoJava/nbproject/private/
+/001_Fundamentos/001/HolaMundoJava/build/
+/001_Fundamentos/002/Variables/nbproject/private/
+/001_Fundamentos/002/Variables/build/
