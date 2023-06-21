@@ -1,5 +1,6 @@
-// Variables en Java
+import java.util.Scanner;
 
+// Variables en Java
 public class Variables {
 
     public static void main(String[] args) {
@@ -53,5 +54,11 @@ public class Variables {
         System.out.println("Comilla simple: \'" + nombre + "\'");
         System.out.println("Comilla simple: '" + nombre + "'");
         System.out.println("Comilla doble: \"" + nombre + "\"");
+
+        // Scanner
+        System.out.println("Escribe tu nombre:");
+        Scanner consola = new Scanner(System.in);
+        usuario = consola.nextLine();
+        System.out.println("Ususario = " + usuario);
     }
 }
