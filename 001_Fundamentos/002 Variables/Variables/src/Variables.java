@@ -60,5 +60,13 @@ public class Variables {
         Scanner consola = new Scanner(System.in);
         usuario = consola.nextLine();
         System.out.println("Ususario = " + usuario);
+        
+        // Ejercicio
+        var autor = "";
+        System.out.println("Proporciona el titulo: ");
+        titulo = consola.nextLine();
+        System.out.println("Proporciona el autor: ");
+        autor = consola.nextLine();
+        System.out.println(titulo + " fue escrito por: " + autor);
     }
 }
